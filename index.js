@@ -12,8 +12,8 @@ const seed = bip39.mnemonicToSeedSync(mnemonic);
 const hdWallet = hdkey.fromMasterSeed(seed);
 
 // Specify the derivation path and number of wallets
-const derivationPath = "m/44'/0'/0'/0"; // Example path, change as needed
-const numWallets = 5; // Example number, generate as many wallets as needed
+const derivationPath = "m/44'/0'/0'/0"; 
+const numWallets = 5; 
 
 for (let i = 0; i < numWallets; i++) {
   // Derive the child key
