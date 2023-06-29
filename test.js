@@ -4,7 +4,7 @@ const bip39 = require('bip39');
 // Define the master mnemonic key
 const mnemonic = 'your mnemonic phrase goes here';
 
-// Define the HD path patterns for generating multiple wallets
+// HD path patterns for generating multiple wallets
 const hdPaths = [
   "m/44'/0'/0'/0",    // HD Path 1
   "m/44'/0'/1'/0",    // HD Path 2
