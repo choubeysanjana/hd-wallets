@@ -1,3 +1,4 @@
+//create multiple hd wallets from master key
 const bip39 = require('bip39');
 const hdkey = require('hdkey');
 const bitcoin = require('bitcoinjs-lib');
@@ -29,4 +30,7 @@ for (let i = 0; i < numWallets; i++) {
   console.log('Private Key:', privateKey);
   console.log('-----------------------');
 }
+
+
+
 
