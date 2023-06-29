@@ -11,7 +11,6 @@ const hdPaths = [
   "m/44'/0'/2'/0",    // HD Path 3
   "m/44'/0'/3'/0",    // HD Path 4
   "m/44'/0'/4'/0",    // HD Path 5
-  "m/44'/0'/5'/0",    // HD Path 6
 ];
 
 // Function to generate wallets for multiple HD paths
